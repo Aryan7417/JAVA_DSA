@@ -1,9 +1,9 @@
 package JAVA_Revision.revision.datatypes;
 
 public class StringExammple {
-   public static void main(java.lang.String[] args) {
+    public static void main(java.lang.String[] args) {
 
-        int a = 3;
+        int c = 3;
 
         java.lang.String str1 = "HEllo";
         java.lang.String str2 = "HEllo";
@@ -12,5 +12,16 @@ public class StringExammple {
         System.out.println(str1 == str2);
         System.out.println(str1 == str3);
         System.out.println(str1.equals(str3));
+
+        // upperr case
+
+        String a = "Aruan yadav";
+        a = a.toUpperCase();
+        System.out.println(a);
+
+        String b = "hello world";
+        System.out.println(a.length());
+
     }
+
 }
