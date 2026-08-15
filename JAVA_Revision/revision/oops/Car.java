@@ -1,11 +1,21 @@
 package JAVA_Revision.revision.oops;
 
 public class Car {
-    int speed ;
-    String color;
+    private int speed;
+    private String color;
 
-    void drive(){
-        System.out.println("driveing");
+    public Car(String color) {
+        this.color = color;
     }
-    
+
+    public void setSpeed(int speed) {
+        if (speed < 0) {
+            System.out.println("not possibel");
+        } else {
+
+            this.speed = speed;
+            System.out.println("Driving at : " + speed);
+        }
+    }
+
 }
