@@ -1,4 +1,4 @@
-public class intro {
+public class intro1 {
 
     public static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
