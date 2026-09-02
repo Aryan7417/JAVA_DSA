@@ -7,7 +7,7 @@ public class quess4 {
         int n1 = sc.nextInt();
         int[] a1 = new int[n1];
         for (int i = 0; i < a1.length; i++) {
-            ai[i] = sc.nextInt();
+            a1[i] = sc.nextInt();
 
         }
 
