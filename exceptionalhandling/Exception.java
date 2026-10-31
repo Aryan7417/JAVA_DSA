@@ -19,6 +19,7 @@ public class Exception {
 
         int a = 3;
         int b = 0;
+        int c = 3;
         
         methodA(a,b);
 
