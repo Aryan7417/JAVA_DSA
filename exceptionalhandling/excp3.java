@@ -19,5 +19,6 @@ public class excp3 {
         }
 
         System.out.println("hello ");
+        System.err.println("this is a test code");
     }
 }
